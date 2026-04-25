@@ -1,0 +1,30 @@
+body{
+    margin:20px;
+}
+
+.box{
+    background-color: #247;
+    color:#fff;
+    margin:10px;
+    padding:15px;
+    border-radius: 10px;
+    font-size: 150%;
+}
+
+/* what we did till here is not a grid now we add grid prop
+*/
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px; /* can replace it with repeat(3,100px) */
+    grid-template-rows: 2fr 1fr; /* this is basically fraction */
+    grid-auto-rows:minmax(150px,auto); /* this is basically 150 min and then max auto for our show*/
+    grid-gap: 10px; /*now this is for the gutter can also use gris auto-rows and cols*/
+    background-color: rgb(202,96,96);
+}
+/* as there are 2 rows fraction is 2:1*/
+/*farctions and pixels can be used interchangebly for our rows and cols
+2 common layouts are 12 and 16 layouts they divide the page into 12 and 16 col respectively
+
+
+
+*/

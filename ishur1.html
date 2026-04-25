@@ -1,0 +1,211 @@
+<!--</br> can be used without closing it's tag-->
+<!-- 1. Header
+ 2. Nav
+ 3. Main
+ 4. Footer-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Little Lemon</title>
+    <link rel="stylesheet" href="ishur1.css">
+</head>
+
+<body>
+    <header>
+        <!-- To display the little lemon logo-->
+        <img src="ishur1.png">
+    </header>
+
+    <nav>
+        <!--Navigational structure of website-->
+        <ul>
+            <li><a href="ishur1(index).html">Home</a></li>
+            <li><a href="ishur1(loaction).html">Location</a></li>
+            <li><a href="ishur1(blog).html">Blog</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!--main elments-->
+        <!--in total we have 6 tags h1 h2 till h6 each being smaller -->
+        <!--Now say we need 2 articles let's start with h1 here only-->
+        <h1>Blog</h1>
+        <article>
+            <h2>20% off this weekend</h2>
+            <p>Come down to our restruant this weekend we have 20% off</p>
+            <!--now this is para which we will use in every h tag-->
+        </article>
+        <article>
+            <h2>Our new menu</h2>
+            <p>We have added new dinners in our menu</p>
+        </article>
+
+    </main>
+    <footer>
+        <!-- copyright etc-->
+        <p>Copy right Little Lemon</p>
+    </footer>
+</body>
+
+</html>
+
+<!--
+We have to use form validation as say we are ordering food but the location doesn't 
+exist in that case the food will never arive 
+so we need a sys to verify that the input is correct 
+we have 2 types of validation client side,server side
+
+in client side we have say js code in which if we wrong input say mail
+then it would not just accept it if it's correct server will accept it
+backend will verify it then it would proceed
+
+we have following types 
+<input type="email">
+<input type="tel">
+<input type="url">
+<input type="date">
+<input type="time">
+<input type="number">
+<input type="range">
+<input type="color">
+
+it will provide a input error msg like type url etc types
+if it is a req value u won't be able to pass without giving it
+
+now we have also have buttons or defaulst which we need to learn 
+rest say is not predefined we can do our own
+
+like
+<button onclick="alert('Are you sure you want to continue?')">
+<img src="https://yourserver.com/button_img.jpg"
+alt="Submit the form" height="64" width="64">
+</button>
+
+-->
+
+<!-- like we send a req on web servwer and we get the response
+get and post are the methods 
+
+
+<form method="get">
+</form>
+
+in get the form u req is sent in url
+
+though the "get" method is pretty easy there is a problem 
+1.URL length limit by browser (2000) chars
+2.URL length limited ny web server (apache etc 4096) chars
+3.Security threats ..ur info can be stored in web servers 
+which is dangerous
+
+as we know in the get all things are conveyed to by converting all info to url
+that's why the limit prob
+
+Now in POST method
+what we do is we give a http req to server directly
+if there is success it will proceed otherwise 
+it would not now in this the security is much better
+but still some third party could listen the http req to secure completely we use
+HTTPS in this only sender and receiver can understand data
+
+after http response is sent
+
+SUBMIT
+we have get and post 
+
+we have action and method
+
+say we use action 
+<form action="/login">
+</form>
+The action attribute specifies to which web address the form must be sent. This address is the location of server-side code that will process the request.
+t is important to note that action can be a full URL address such as https://meta.com, an absolute path such as /login, or a relative path such as login. 
+<form method="get"> 
+</form> 
+<form method="post"> 
+</form> 
+
+we get default get when we don't give any
+get- form field is encoded in url
+post- sent as part of HTTP req body
+
+we can do this by only JSON only as well
+
+<header></header>
+<section>
+    <article>
+        <figure>
+            <img>
+            <figcaption></figcaption>
+        </figure>
+    </article>
+</section>
+<footer></footer>
+
+<div id="header"></div>
+<div class="section">
+    <div class="article">
+        <div class="figure">
+            <img>
+            <div class="figcaption"></div>
+        </div>
+    </div>
+</div>
+<div id="footer"></div>
+
+<section>
+  <p>Top Stories</p>
+  <section>
+    <p>News</p>
+    <article>Story 1</article>
+    <article>Story 2</article>
+    <article>Story 3</article>
+  </section>
+  <section>
+    <p>Sport</p>
+    <article>Story 1</article>
+    <article>Story 2</article>
+    <article>Story 3</article>
+  </section>
+</section>
+
+<header>
+  <h1>Company A</h1>
+  <ul>
+    <li><a href="/home">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/contact">Contact us</a></li>
+  </ul>
+  <form target="/search">
+    <input name="q" type="search" />
+    <input type="submit" />
+  </form>
+</header>
+
+<hgroup>
+  <h1>Heading 1</h1>
+  <h2>Subheading 1</h2>
+  <h2>Subheading 2</h2>
+</hgroup>
+
+<aside>
+  <p>This is a sidebar, for example a terminology definition or a short background to a historical figure.</p>
+</aside>
+
+<nav>
+  <ul>
+    <li><a href="/home">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/contact">Contact us</a></li>
+  </ul>
+</nav>
+
+<footer><small>&copy;Company A</small> Date</footer>
+
+<time datetime="2017-10-31T11:21:00+02:00">Tuesday, 31 October 2017</time>
+
+<figure>
+  <img src="https://en.wikipedia.org/wiki/File:Shadow_of_Mordor_cover_art.jpg" alt="Shadow of Mordor" />
+  <figcaption>Cover art for Middle-earth: Shadow of Mordor</figcaption>
+</figure>
+-->

@@ -1,0 +1,46 @@
+/*
+pseudo class selectors are state based
+like say in hover case or in focus or visited links or specific elements
+
+syntax
+selector:pseudo-class{
+property: value
+}
+
+we have hover,active,focus
+
+form states
+
+disabled and enabled
+checked and indeterminate
+valid and invalid
+
+specific position based states
+first of type
+last of type
+nth last of type
+*/
+
+
+.mypage{
+    font-family: 'Gill Sans',sans-serif;
+
+}
+a[href]{
+    color:brown;
+}
+.mybutton{
+    font-family: sans-serif;
+}
+a.hover{
+    background: brown;
+    color: white;
+}
+.mybutton:active{
+    background-color: cornflowerblue;
+    transform: scale(0.99);
+}
+    
+.li:first-of-type{
+    color:lightseagreen;
+}
