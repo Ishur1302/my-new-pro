@@ -3,3 +3,5 @@
 * C++, React, Node.js
 ### Milestones
 * Achieved 365-day streak
+### Future Goals
+* Explore Object Detection models
