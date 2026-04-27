@@ -6,3 +6,4 @@
 ### Future Goals
 * Explore Object Detection models
 ## Current Goal: Reach 1200 (Pupil) on Codeforces
+* CodeChef: 977 (Div 4)
