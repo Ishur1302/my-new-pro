@@ -11,3 +11,5 @@
 * [Codeforces Problemset](https://codeforces.com/problemset)
 * [CodeChef Starters](https://www.codechef.com/contests)
 * [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
+* [x] Mastered Expected Value in Combinatorics
+* [ ] Next Goal: Segment Tree Lazy Propagation
