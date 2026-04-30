@@ -1,7 +1,5 @@
-.DS_Store
-*.out
 *.exe
-.DS_Store
 *.out
-*.exe
+*.o
 .DS_Store
+sol
