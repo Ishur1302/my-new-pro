@@ -13,3 +13,6 @@
 * [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
 * [x] Mastered Expected Value in Combinatorics
 * [ ] Next Goal: Segment Tree Lazy Propagation
+## Latest Updates
+- Implemented Inversion Invasion solution (F-level logic).
+- Added modular arithmetic and palindrome utilities.
