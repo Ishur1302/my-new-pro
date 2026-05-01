@@ -16,3 +16,6 @@
 ## Latest Updates
 - Implemented Inversion Invasion solution (F-level logic).
 - Added modular arithmetic and palindrome utilities.
+## Roadmap
+- [ ] Master Fenwick Trees for Inversion counting
+- [ ] Study Graph Theory (DFS/BFS) applications
