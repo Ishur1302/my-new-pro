@@ -19,3 +19,6 @@
 ## Roadmap
 - [ ] Master Fenwick Trees for Inversion counting
 - [ ] Study Graph Theory (DFS/BFS) applications
+### Skills Acquired (May 2026)
+- [x] Greedy Reordering & Factor Separation
+- [x] Subarray Product Properties
