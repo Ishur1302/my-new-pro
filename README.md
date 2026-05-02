@@ -22,3 +22,4 @@
 ### Skills Acquired (May 2026)
 - [x] Greedy Reordering & Factor Separation
 - [x] Subarray Product Properties
+- [x] Construction Algorithms: Maximizing block medians
