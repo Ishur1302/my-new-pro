@@ -23,3 +23,6 @@
 - [x] Greedy Reordering & Factor Separation
 - [x] Subarray Product Properties
 - [x] Construction Algorithms: Maximizing block medians
+### LeetCode Stats
+- **Latest Contest:** 2026-05-03
+- **Focus:** Dynamic Programming & Array Manipulation
