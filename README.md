@@ -26,3 +26,5 @@
 ### LeetCode Stats
 - **Latest Contest:** 2026-05-03
 - **Focus:** Dynamic Programming & Array Manipulation
+## Current Focus: Game Theory & Combinatorics
+- Successfully modeled 'The Equalizer' as a parity-invariant game.
