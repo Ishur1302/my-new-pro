@@ -28,3 +28,5 @@
 - **Focus:** Dynamic Programming & Array Manipulation
 ## Current Focus: Game Theory & Combinatorics
 - Successfully modeled 'The Equalizer' as a parity-invariant game.
+### Advanced References
+- [CP-Algorithms: Sprague-Grundy](https://cp-algorithms.com/game_theory/sprague-grundy-nim.html)
